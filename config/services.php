@@ -38,12 +38,18 @@ return [
     'facebook' => [
     'client_id' => '113320419166559',
     'client_secret' => '5fd755d58e9e6cfaf51857c226bb9617',
-    'redirect' => 'http://localhost:8000/callback',
+    'redirect' => 'http://localhost:8000/callback/facebook',
     ],
     
     'twitter' => [
     'client_id' => '9RsvyAEm1dpLm9bc03pbeB43T',
     'client_secret' => 'vCfGgtfXANYqoQe9U6ZcTIjcxdiC8Y1CZXpSC1g8yExSbyUJW7',
-    'redirect' => 'http://localhost:8000/callback',
+    'redirect' => 'http://localhost:8000/callback/twitter',
+    ],
+    
+    'google' => [
+    'client_id' => '1068923632253-lls4hk6hi8koqhb663i0lat9mit8cjij.apps.googleusercontent.com',
+    'client_secret' => 'TeU_OyLPrObCLRLaIQ2siLaK',
+    'redirect' => 'http://localhost:8000/callback/google',
     ],
 ];
